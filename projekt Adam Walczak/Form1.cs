@@ -171,8 +171,8 @@ namespace projekt_Adam_Walczak
             }
 
             Series s = new Series("SortowanieBąbelkowe");
-            s.BorderWidth = 3; // Ustaw grubość linii
-            s.BorderDashStyle = ChartDashStyle.Solid; // Ustaw solidny styl linii
+            s.BorderWidth = 3; 
+            s.BorderDashStyle = ChartDashStyle.Solid; 
 
             int lol;
             if (checkBox4.Checked)
@@ -194,7 +194,7 @@ namespace projekt_Adam_Walczak
 
 
             s = new Series("SortowaniePrzezWybór");
-            s.BorderWidth = 3; // Ustaw grubość linii
+            s.BorderWidth = 3; 
             s.BorderDashStyle = ChartDashStyle.Solid;
 
            
@@ -217,7 +217,7 @@ namespace projekt_Adam_Walczak
             }
 
             s = new Series("SortowanieSzybkie");
-            s.BorderWidth = 3; // Ustaw grubość linii
+            s.BorderWidth = 3; 
             s.BorderDashStyle = ChartDashStyle.Solid;
 
             if (checkBox6.Checked == true)
@@ -239,7 +239,7 @@ namespace projekt_Adam_Walczak
             }
 
             s = new Series("SortowaniePrzezScalanie");
-            s.BorderWidth = 3; // Ustaw grubość linii
+            s.BorderWidth = 3; 
             s.BorderDashStyle = ChartDashStyle.Solid;
 
             if (checkBox7.Checked == true)
@@ -262,7 +262,7 @@ namespace projekt_Adam_Walczak
 
 
             s = new Series("SortowaniePrzezWstawianie");
-            s.BorderWidth = 3; // Ustaw grubość linii
+            s.BorderWidth = 3; 
             s.BorderDashStyle = ChartDashStyle.Solid;
 
             if (checkBox8.Checked == true)
